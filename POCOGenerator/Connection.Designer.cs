@@ -42,21 +42,20 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtConnectionString.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.txtConnectionString.ForeColor = System.Drawing.Color.Navy;
-            this.txtConnectionString.Location = new System.Drawing.Point(22, 21);
-            this.txtConnectionString.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtConnectionString.Location = new System.Drawing.Point(11, 11);
+            this.txtConnectionString.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtConnectionString.Multiline = true;
             this.txtConnectionString.Name = "txtConnectionString";
-            this.txtConnectionString.Size = new System.Drawing.Size(1823, 130);
+            this.txtConnectionString.Size = new System.Drawing.Size(620, 70);
             this.txtConnectionString.TabIndex = 7;
             // 
             // btnCancel
             // 
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(1699, 348);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCancel.Location = new System.Drawing.Point(555, 181);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(150, 44);
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -64,10 +63,9 @@
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(1537, 348);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSave.Location = new System.Drawing.Point(474, 181);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(150, 44);
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "OK";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -77,24 +75,24 @@
             // 
             this.lblExplain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblExplain.Location = new System.Drawing.Point(22, 179);
+            this.lblExplain.Location = new System.Drawing.Point(11, 93);
+            this.lblExplain.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExplain.Name = "lblExplain";
-            this.lblExplain.Size = new System.Drawing.Size(1823, 163);
+            this.lblExplain.Size = new System.Drawing.Size(620, 85);
             this.lblExplain.TabIndex = 10;
             this.lblExplain.Text = resources.GetString("lblExplain.Text");
             // 
             // Connection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(1871, 416);
+            this.ClientSize = new System.Drawing.Size(642, 216);
             this.ControlBox = false;
             this.Controls.Add(this.lblExplain);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.txtConnectionString);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Connection";
